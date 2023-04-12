@@ -18,4 +18,73 @@
 
 public class CalcoliHelper
 {
+    //static methods (non utilizzano gli attributi)
+    public static int Sum(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+
+    public static double Sum(double num1, double num2)
+    {
+        return num1 + num2;
+    }
+
+    public static int Multiplication(int num1, int num2)
+    {
+        return num1 * num2;
+    }
+
+    public static double Multiplication(double num1, double num2)
+    {
+        return num1 * num2;
+    }
+
+    public static int Division(int num1, int num2)
+    {
+        return num1 / num2;
+    }
+
+    public static double Division(double num1, double num2)
+    {
+        return num1 / num2;
+    }
+
+    public static int ConvertToAbsolute(int num)
+    {
+        return num < 0 ? (num * 2) : num; 
+    }
+
+    public static double ConvertToAbsolute(double num)
+    {
+        return num < 0 ? (num * 2) : num;
+    }
+
+    public static int Max(int num1, int num2)
+    {
+        return num1 > num2 ? num1 : num2;
+    }
+
+    public static double Max(double num1, double num2)
+    {
+        return num1 > num2 ? num1 : num2;
+    }
+
+    public static int Min(int num1, int num2)
+    {
+        return num1 < num2 ? num1 : num2;
+
+    }
+
+    public static double Min(double num1, double num2)
+    {
+        return num1 < num2 ? num1 : num2;
+    }
+
+
+
+
+
+
+
+
 }
