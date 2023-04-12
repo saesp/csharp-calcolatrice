@@ -15,6 +15,23 @@
 //Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti che abbiamo visto oggi…Quale? Scrivetelo in un commento all’interno del codice! :faccia_nerd:
 //Testate tutti i metodi della vostra classe di helper (con un esempio per ogni casistica).
 
+Console.WriteLine(CalcoliHelper.Sum(4, 6));
+Console.WriteLine(CalcoliHelper.Sum(4.25, 5.75));
+
+Console.WriteLine(CalcoliHelper.Division(10, 2));
+Console.WriteLine(CalcoliHelper.Division(5.5, 10.5));
+
+Console.WriteLine(CalcoliHelper.Multiplication(4, 6));
+Console.WriteLine(CalcoliHelper.Multiplication(4.5, 6.5));
+
+Console.WriteLine(CalcoliHelper.Max(4, 6));
+Console.WriteLine(CalcoliHelper.Max(8.59, 3.43));
+
+Console.WriteLine(CalcoliHelper.ConvertToAbsolute(-4));
+Console.WriteLine(CalcoliHelper.ConvertToAbsolute(-8.25));
+
+Console.WriteLine(CalcoliHelper.Min(4, 6));
+Console.WriteLine(CalcoliHelper.Min(8.59, 3.43));
 
 public class CalcoliHelper
 {
@@ -51,12 +68,12 @@ public class CalcoliHelper
 
     public static int ConvertToAbsolute(int num)
     {
-        return num < 0 ? (num * 2) : num; 
+        return num < 0 ? (num * -1) : num; 
     }
 
     public static double ConvertToAbsolute(double num)
     {
-        return num < 0 ? (num * 2) : num;
+        return num < 0 ? (num * -1) : num;
     }
 
     public static int Max(int num1, int num2)
@@ -79,12 +96,5 @@ public class CalcoliHelper
     {
         return num1 < num2 ? num1 : num2;
     }
-
-
-
-
-
-
-
-
 }
+
