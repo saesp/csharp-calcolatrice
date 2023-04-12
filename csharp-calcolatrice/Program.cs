@@ -12,7 +12,6 @@
 //- Minimo tra due numeri double
 //- Massimo tra due numeri interi
 //- Massimo tra due numeri double
-//Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti che abbiamo visto oggi…Quale? Scrivetelo in un commento all’interno del codice! :faccia_nerd:
 //Testate tutti i metodi della vostra classe di helper (con un esempio per ogni casistica).
 
 Console.WriteLine(CalcoliHelper.Sum(4, 6));
@@ -98,3 +97,5 @@ public class CalcoliHelper
     }
 }
 
+//Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti… Quale?
+//Polimorfismo
